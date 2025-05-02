@@ -1,0 +1,78 @@
+body{
+    font-family: Arial;
+    background-color: #FFDBFF;
+    margin: 0;
+    padding: 20px;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    color:#54677E;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+ul{
+    line-height: 2;
+}
+
+.hobby-img{
+    border-radius: 15px;
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+table{
+    width: 100%;
+    margin: 20px 0;
+}
+
+table, th, td{
+    border: 1px solid #000000;
+}
+
+th, td{
+    padding: 12px;
+    text-align: left;
+}
+
+.paises-img{
+    width: 150px;
+    border-radius: 5px;
+}
+
+.site-link{
+    display: inline-block;
+    margin-top: 20px;
+    color: #6490ee;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.site-link:hover{
+    color: #03060d;
+}
+
+button{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+}
+
+#mensagemContainer{
+    margin: 20px 0;
+    padding: 15px;
+    display: none;
+}
